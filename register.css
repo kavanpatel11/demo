@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: wheat;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    background: blue;
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 9px 9px;
+}
+
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 9px;
+    width: 90%;
+    max-width: 400px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 40px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #9c8a8a;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    background: #007BFF;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #0056b3;
+    cursor: pointer;
+}
+
+.account {
+    text-align: center;
+    font-size: 16px;
+    margin-top: -15px;
+}
+
+.login {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.login:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+}
